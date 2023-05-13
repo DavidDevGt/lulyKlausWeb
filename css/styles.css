@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    /* Colores principales */
+    --md-pink-500: #E91E63;
+    --md-pink-300: #F06292;
+    --md-pink-100: #ffb1cc;
+    /* Colores de acento */
+    --md-pink-a200: #FF4081;
+    --md-pink-a100: #FF80AB;
+    --md-pink-a400: #F50057;
+    /* Colores de fondo */
+    --md-grey-50: #FAFAFA;
+    --md-grey-100: #F5F5F5;
+    --md-grey-200: #EEEEEE;
+    --md-grey-300: #E0E0E0;
+    --md-grey-400: #BDBDBD;
+    --md-grey-500: #9E9E9E;
+    --md-grey-600: #757575;
+    --md-grey-700: #616161;
+    --md-grey-800: #424242;
+    --md-grey-900: #212121;
+    /* Colores de sombras */
+    --md-shadow-1: 0 2px 2px rgba(0, 0, 0, 0.14), 0 1px 5px rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    --md-shadow-2: 0 3px 4px rgba(0, 0, 0, 0.14), 0 1px 8px rgba(0, 0, 0, 0.12), 0 3px 3px -2px rgba(0, 0, 0, 0.4);
+    --md-shadow-3: 0 10px 13px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.4);
+    --md-shadow-4: 0 14px 26px rgba(0, 0, 0, 0.14), 0 4px 23px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+    --md-shadow-5: 0 19px 38px rgba(0, 0, 0, 0.14), 0 6px 30px rgba(0, 0, 0, 0.12), 0 16px 24px -10px rgba(0, 0, 0, 0.4);
+    /* Tipografía */
+    --md-font-family: 'Roboto', sans-serif;
+    --md-font-size: 16px;
+    --md-font-weight-regular: 400;
+    --md-font-weight-medium: 500;
+    --md-font-weight-bold: 700;
+}
+
+
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--md-font-family);
+}
+
+
+/* Encabezado */
+
+header {
+    background-color: var(--md-pink-100);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    margin-left: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 24px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: var(--md-font-weight-medium);
+    padding-right: 1.8rem;
+}
+
+nav ul li a:hover {
+    color: var(--md-grey-100);
+    font-size: 22px;
+    /* Tamaño de fuente ligeramente mayor al pasar el cursor */
+    transform: scale(1.05);
+    /* Aumenta el tamaño del texto */
+}
