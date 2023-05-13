@@ -83,3 +83,160 @@ nav ul li a:hover {
     transform: scale(1.05);
     /* Aumenta el tamaño del texto */
 }
+
+.acerca-de {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.acerca-de-imagen img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.acerca-de-texto {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+
+.acerca-de-texto h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--md-grey-800);
+    margin-bottom: 20px;
+}
+
+.acerca-de-texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--md-grey-700);
+}
+
+.tienda-regalos {
+    background-color: var(--md-grey-100);
+    padding: 80px;
+    text-align: center;
+}
+
+.tienda-regalos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--md-grey-800);
+    margin-bottom: 40px;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--md-shadow-2);
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.producto h3 {
+    font-size: 18px;
+    color: var(--md-grey-800);
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 14px;
+    color: var(--md-grey-600);
+    margin-bottom: 10px;
+}
+
+.comprar-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--md-pink-500);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.comprar-btn i {
+    margin-right: 10px;
+}
+
+.comprar-btn:hover {
+    background-color: var(--md-pink-a200);
+}
+
+.organizacion-eventos {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.organizacion-eventos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servicios {
+    margin-bottom: 30px;
+}
+
+.servicios h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.servicios p {
+    margin-bottom: 20px;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.servicio {
+    text-align: center;
+}
+
+.servicio img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.servicio h4 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.experiencia {
+    text-align: center;
+}
+
+.experiencia h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experiencia p {
+    margin-bottom: 20px;
+}
